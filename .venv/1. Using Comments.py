@@ -1,1 +1,1 @@
-print('Jayaguru')
+print("Jayaguru")
