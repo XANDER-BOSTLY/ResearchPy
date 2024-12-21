@@ -23,7 +23,7 @@ print(name)
 name = "Samuel Garrison"
 print(name)
 
-# Basic Variable Naming Rules
+# Basic Variable Naming Rules.
 # 1. Start with a letter or underscore (a-z, A-Z)(_)
 # 2. Use letters, numbers, or underscores (az, a_)
 # 3. Case sensitive (az, aZ, A_, a_)
