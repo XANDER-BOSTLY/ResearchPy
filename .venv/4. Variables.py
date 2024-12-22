@@ -28,3 +28,31 @@ print(name)
 # 2. Use letters, numbers, or underscores (az, a_)
 # 3. Case sensitive (az, aZ, A_, a_)
 # 4. No reserved keyword (from, del)
+
+# Simple operations
+N1 = 10
+N2 = 6
+# Addition
+Sum = N1 + N2
+print(Sum)
+
+# Subtraction
+Difference = N1 - N2
+print(Difference)
+
+# Multiplication
+Product = N1 * N2
+print(Product)
+
+# Division
+Quotient = N1 / N2
+print(Quotient)
+
+# Integer Division
+Int_Quotient = N1 // N2
+print(Int_Quotient)
+
+# Remainder
+Remainder = N1 % N2
+print(Remainder)
+
