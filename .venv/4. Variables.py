@@ -56,3 +56,8 @@ print(Int_Quotient)
 Remainder = N1 % N2
 print(Remainder)
 
+# Exponentiation
+exponent = N2 ** N1
+print(exponent)
+
+print((3 ** 4) % 5)

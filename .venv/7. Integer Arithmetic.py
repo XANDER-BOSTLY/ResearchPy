@@ -2,8 +2,9 @@
 # # '-' for subtraction
 # # '*' for multiplication
 # # '/' for division
-# # '//' for integer division
-# # '%' for finding remainder
+# # '//' for floor division, works exactly like the least integer function [x]
+# # '**' for exponentiation (raising a number by a certain power)
+# # '%' for modulo operation (finding the remainder on dividing two integers)
 #
 # wallet = 50  # you start with $50
 # # Buy some itmes
