@@ -93,35 +93,35 @@ rasagula = 20
 chenna_podo = 30
 
 # Friends
-tim = [veg_chowmein, paneer_nuggets, mushroom_nuggets, harabhara_kabab, naan, chilli_paneer, paneer_65, curd, salad, butterscotch, chenna_podo]
-robin = [chicken_nuggets, mushroom_nuggets, fish_nuggets, chilli_chicken, rice, naan, fish_fry, malpua, rabdi, rasagula]
-sam = [chicken_chowmein, paneer_nuggets, chicken_nuggets, fish_nuggets, naan, rice, chicken_tikka_masala, curd, salad, paneer_65, kheer, chenna_podo, rabdi, vanilla_icecream]
-
-friends = [tim, robin, sam]
-expense = 0
-friends_expenses = []
-
-for friend in friends:
-    i = 0
-    while i < len(friend):
-        expense += friend[i]
-        i += 1
-    friends_expenses.append(expense)
-    expense = 0
-
-total_expenses = 0
-j = 0
-while j < len(friends_expenses):
-    total_expenses += friends_expenses[j]
-    j += 1
-
-tips_percent = 0.15
-tips_amount = tips_percent * total_expenses
-total_with_tips = total_expenses + tips_amount
-
-each_friend_share = round(total_with_tips / len(friends), 2)
-
-print(f"Three friends visited a restaurant. Their total expenses (tips included) was {my_dict["rupees"]}{total_with_tips}. Each friend had to pay {my_dict["rupees"]}{each_friend_share}.")
+# tim = [veg_chowmein, paneer_nuggets, mushroom_nuggets, harabhara_kabab, naan, chilli_paneer, paneer_65, curd, salad, butterscotch, chenna_podo]
+# robin = [chicken_nuggets, mushroom_nuggets, fish_nuggets, chilli_chicken, rice, naan, fish_fry, malpua, rabdi, rasagula]
+# sam = [chicken_chowmein, paneer_nuggets, chicken_nuggets, fish_nuggets, naan, rice, chicken_tikka_masala, curd, salad, paneer_65, kheer, chenna_podo, rabdi, vanilla_icecream]
+#
+# friends = [tim, robin, sam]
+# expense = 0
+# friends_expenses = []
+#
+# for friend in friends:
+#     i = 0
+#     while i < len(friend):
+#         expense += friend[i]
+#         i += 1
+#     friends_expenses.append(expense)
+#     expense = 0
+#
+# total_expenses = 0
+# j = 0
+# while j < len(friends_expenses):
+#     total_expenses += friends_expenses[j]
+#     j += 1
+#
+# tips_percent = 0.15
+# tips_amount = tips_percent * total_expenses
+# total_with_tips = total_expenses + tips_amount
+#
+# each_friend_share = round(total_with_tips / len(friends), 2)
+#
+# print(f"Three friends visited a restaurant. Their total expenses (tips included) was {my_dict["rupees"]}{total_with_tips}. Each friend had to pay {my_dict["rupees"]}{each_friend_share}.")
 
 # print(friends_expenses)
 
@@ -171,3 +171,21 @@ print(f"Three friends visited a restaurant. Their total expenses (tips included)
 # print(f'Tim has contributed to {tim_share}% of the total expenses.')
 # print(f'Robin has contributed to {robin_share}% of the total expenses.')
 # print(f'Sam has contributed to {sam_share}% of the total expenses.')
+
+# Order of operations in python
+
+# Python follows PEMDAS
+# P for Parenthesis
+# E for Exponentiation
+# M for Multiplication, D for Division, Integer division, Modulo operation
+# A for Addition, S for Subtraction
+
+# If operations used in the xpression are of smae priority, then python performs the operations from left to right
+print(20 / 4 * 2) # Output: 10.0
+print(5 + 3 * 2)
+print((5 + 3) * 2)
+print(5 ** 3 * 2)
+print((10 - 2) ** 2)
+
+result = (10 + 5 * 2) ** 2 - 30 // (2 + 1)
+print(result)

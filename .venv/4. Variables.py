@@ -61,3 +61,24 @@ exponent = N2 ** N1
 print(exponent)
 
 print((3 ** 4) % 5)
+
+# print(2023 ** 2023)
+# print(2023)
+
+# def factoial(number):
+#     if number > 1:
+#         n = number - 1
+#         while n > 1:
+#             number *= n - 1
+#             n -= 1
+#         return number
+#
+#     elif number == 1 and number == 0:
+#         return 1
+#
+#     else:
+#         return "Invalid input!"
+
+
+# print(factoial(0))
+
